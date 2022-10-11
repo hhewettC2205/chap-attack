@@ -370,7 +370,7 @@ Hero.setPosition(1, 115)
 controller.moveSprite(Hero, 50, 50)
 scene.cameraFollowSprite(Hero)
 DrTexas.setPosition(145, 120)
-DrTexas.follow(Hero, 50)
+DrTexas.follow(Hero, 35)
 statusbar = statusbars.create(20, 4, StatusBarKind.EnemyHealth)
 statusbar.value = 1000
 statusbar.attachToSprite(DrTexas)
